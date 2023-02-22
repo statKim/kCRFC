@@ -1,10 +1,11 @@
 # kCRFC
 
 This is the R code to implement the simulations and real data analysis of the following paper:
-> Hyunsung Kim and Yaeji Lim (2022+). Functional clustering on a sphere via Riemannian functional principal components, *Submitted.*
+> Hyunsung Kim and Yaeji Lim (2022+). Functional clustering on a sphere via Riemannian functional principal components, *under review.*
 
 ## Description
 
+- **clust_validation.R** : Clustering validation from real data clustering of compositional medfly data (3-dimensional sphere)
 - **functions.R** : R functions to implement the proposed **kCRFC** and other functions are included.
 - **simulation.R** : Simulation code for the curves on a 2-dimensional sphere
 - **simulation_S3.R** : Simulation code for the curves on a 3-dimensional sphere
