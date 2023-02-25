@@ -12,8 +12,13 @@ library(rnaturalearth)
 library(rnaturalearthdata)
 source("functions.R")
 
+
+#####################################
+### Data Preprocessing
+#####################################
+
 ### Bird migration trajectory data which is removed outlying observations
-data <- read_csv("~/GoogleDrive/Lab/KHS/manifold_clust/real_data/Egyptian vultures in the Middle East and East Africa.csv")
+data <- read_csv("./real_data/Egyptian vultures in the Middle East and East Africa.csv")
 data
 
 # ### Reference data containing "animal-id"
@@ -206,8 +211,13 @@ bird
 # save(bird, file = "~/GoogleDrive/Lab/KHS/manifold_clust/real_data/bird_migrate.RData")
 
 
+############################################################################
+### Transform to Sphere-valued functional data
+### - If you use the preprocessed RData, you should run the code from here.
+############################################################################
+
 ### Load preprcessed bird migration data
-load("~/GoogleDrive/Lab/KHS/manifold_clust/real_data/bird_migrate.RData")
+load("./data/bird_migrate.RData")
 
 ### Migration trajectories
 world <- ne_countries(scale = "medium", returnclass = "sf")

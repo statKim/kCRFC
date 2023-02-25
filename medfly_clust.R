@@ -11,8 +11,13 @@ library(funHDDC)   # funHDDC
 library(gmfd)   # gmfd
 source("functions.R")
 
+
+#####################################
+### Data Preprocessing
+#####################################
+
 ### Load data
-data <- read.table("~/GoogleDrive/Lab/KHS/manifold_clust/real_data/fly_log_130521.txt", header = T)
+data <- read.table("./real_data/fly_log_130521.txt", header = T)
 head(data)
 
 id <- unique(data$id)
