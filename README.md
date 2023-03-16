@@ -1,7 +1,7 @@
 # kCRFC
 
 This is the R code to implement the simulations and real data analysis of the following paper:
-> Hyunsung Kim and Yaeji Lim (2023). Functional clustering on a sphere via Riemannian functional principal components, *Stat*, accepted.
+> Hyunsung Kim and Yaeji Lim (2023). Functional clustering on a sphere via Riemannian functional principal components, *Stat*, 12(1), e557. https://doi.org/10.1002/sta4.557
 
 ## Description
 
